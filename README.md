@@ -1,3 +1,3 @@
-# Collatz Trees!
- A python script that generates pretty looking collatz trees using graphviz.
-![A Collatz Tree created from the Numbers 1 to 500.](https://github.com/emma-bach/collatz-tree/blob/main/collatz-tree-500.gv.svg)
+# Collatz Trees
+ A python script that generates pretty looking [collatz trees](https://en.wikipedia.org/wiki/Collatz_conjecture) using graphviz.
+![A Collatz Tree created from the Numbers 1 to 500.](https://github.com/emma-bach/collatz-trees/blob/main/output/collatz-tree-500.gv.svg)
