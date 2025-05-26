@@ -15,7 +15,7 @@ def pick_color(value : str) -> str:
 
 def generate_graph(upper_bound : int):
     # set tree attributes
-    tree = graphviz.Digraph("collatz-tree-" + str(upper_bound), format = "svg", engine = "neato")
+    tree = graphviz.Digraph("collatz-tree-" + str(upper_bound), format = "svg", engine = "dot")
     tree.attr("node", shape="circle")
     tree.attr("node", style="filled")
     tree.attr("node", fillcolor = "#694b37")
@@ -55,5 +55,5 @@ def generate_graph(upper_bound : int):
     print("Rendering Complete!")
 
 if __name__ == "__main__":
-    generate_graph(500)
+    generate_graph(2000)
 
